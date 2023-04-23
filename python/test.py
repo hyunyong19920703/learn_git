@@ -1,3 +1,3 @@
-import pandas
+import PIL
 
-print('a')
+print(PIL.__file__)
