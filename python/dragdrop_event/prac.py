@@ -66,9 +66,7 @@ class MyListWidget(QListWidget):
                 self.addItem(url.path())
         else:
             event.ignore()   
-        # urls = event.mimeData().urls()
-        # for url in urls:
-        #     print(url.toLocalFile())         
+              
 
         
 
