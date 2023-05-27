@@ -15,6 +15,8 @@ def get_cam_items():
         data_dict['name'] = name
         data_dict['type'] = cam_type
         
+        data_dict['boxes_value'] = {'red':True, 'green':True, 'blue':True}
+        
         row_datas.append(data_dict)
     
     return row_datas
