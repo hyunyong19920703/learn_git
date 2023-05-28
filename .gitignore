@@ -7,3 +7,8 @@ sg/*
 
 sg_project
 sg_project/*
+
+.pyc
+
+.mb
+.ma
