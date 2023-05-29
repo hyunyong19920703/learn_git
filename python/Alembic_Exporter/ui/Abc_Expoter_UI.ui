@@ -259,6 +259,9 @@
              </item>
              <item>
               <widget class="QComboBox" name="blurstep_comboBox">
+               <property name="currentText">
+                <string>0.25</string>
+               </property>
                <item>
                 <property name="text">
                  <string>1.00</string>
@@ -387,53 +390,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QComboBox" name="servicekey_comboBox">
-               <item>
-                <property name="text">
-                 <string>Cache</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>Lighting</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>Lighting01</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>Lighting02</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>User</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>User01</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>User02</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>All</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>FX</string>
-                </property>
-               </item>
-              </widget>
+              <widget class="QComboBox" name="servicekey_comboBox"/>
              </item>
              <item>
               <spacer name="horizontalSpacer_5">
@@ -473,7 +430,7 @@
                 </size>
                </property>
                <property name="text">
-                <string>200</string>
+                <string/>
                </property>
                <property name="cursorMoveStyle">
                 <enum>Qt::VisualMoveStyle</enum>

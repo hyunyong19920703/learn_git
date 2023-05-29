@@ -89,6 +89,8 @@ class Selected_Asset_Model(QtCore.QAbstractItemModel):
                     return QtCore.Qt.Checked
                 else:
                     return QtCore.Qt.Unchecked
+        elif role == QtCore.Qt.UserRole:
+            return item
                 
     def setData(self, index, value, role):
         if index.isValid():

@@ -9,6 +9,7 @@ sg_project
 sg_project/*
 
 .pyc
+__pycache__
 
 .mb
 .ma
